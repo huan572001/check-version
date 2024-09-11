@@ -1,0 +1,23 @@
+/* eslint-disable prettier/prettier */
+export enum EEnvKey {
+    DB_DATABASE = 'DB_DATABASE',
+    DB_HOST = 'DB_HOST',
+    DB_MAX_QUERY_EXECUTION_TIME = 'DB_MAX_QUERY_EXECUTION_TIME',
+    DB_PASSWORD = 'DB_PASSWORD',
+    DB_PORT = 'DB_PORT',
+    DB_TYPE = 'DB_TYPE',
+    DB_USER = 'DB_USER',
+    DB_SYNCHRONIZE = 'DB_SYNCHRONIZE',
+    LOG_LEVEL = 'LOG_LEVEL',
+
+    SWAGGER_IS_PUBLIC = "SWAGGER_IS_PUBLIC",
+    SWAGGER_TITLE = "SWAGGER_TITLE",
+    SWAGGER_DESC = "SWAGGER_DESC",
+    SWAGGER_VERSION = "SWAGGER_VERSION",
+    SWAGGER_HOST = "SWAGGER_HOST"
+}
+
+export enum ELogLevel {
+    TRACE = 'trace',
+    DEBUG = 'debug',
+}
